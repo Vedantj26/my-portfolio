@@ -34,7 +34,7 @@ const WorkCard = () => {
                   {data.desc}
                 </p>
                 <div className=" flex items-center justify-center gap-4">
-                  <Link
+                  {/* <Link
                     to={data.link}
                     target="_blank"
                     className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
@@ -42,14 +42,14 @@ const WorkCard = () => {
                     <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
                     <p className=" text-black">Demo</p>
                   </Link>
-                  <br className="w-[2px] bg-white" />
+                  <br className="w-[2px] bg-white" /> */}
                   <Link
                     to={data.git}
                     target="_blank"
                     className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
                     <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Code</p>
+                    <p className=" text-black">View on GitHub</p>
                   </Link>
                 </div>
               </div>
