@@ -1,21 +1,19 @@
 import React from "react";
-import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
-
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
-} from "react-icons/si";
-import { GrCode } from "react-icons/gr";
-import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io";
 import java from "../../assets/java.png";
-import { Tab } from "@mui/material";
+import react from "../../assets/react.png";
+import nextjs from "../../assets/nextjs.png";
+import javascript from "../../assets/javascript.png";
+import redux from "../../assets/redux.png";
+import tailwind from "../../assets/tailwind.png";
+import html from "../../assets/html.png";
+import bootstrap from "../../assets/bootstrap.png";
+import spring from "../../assets/spring.png";
+import nodejs from "../../assets/nodejs.png";
+import CPlus from "../../assets/C++.png";
+import mongodb from "../../assets/mongodb.png";
+import sql from "../../assets/sql.png";
+import typescript from "../../assets/typescript.png";
 
 const Skills = ({ darkMode }) => {
   return (
@@ -30,186 +28,101 @@ const Skills = ({ darkMode }) => {
         </div>
         {/* content*/}
         <div className="flex md:flex-row ">
-          {/* <div className="left flex-1 w-full">
-            <p
-              data-aos="fade-up"
-              className=" text-gray-700 font-medium w-[100%]"
-            >
-              Here are my skills.
-            </p>
-            left box
-            <div
-              data-aos="zoom-in"
-              className="progress flex items-center h-[100%] justify-end md:justify-center"
-            >
-              <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
-                <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
-                  value={80}
-                />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
-                <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
-                  value={80}
-                />
-              </div>
-            </div>
-          </div> */}
-          {/* right box */}
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-              <Tab label="FrontEnd"/>
             <div className="first2 flex flex-row gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={react}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"ReactJS"}
-                src="https://icons8.com/icon/13679/java"
               />
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={nextjs}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"NextJs"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={javascript}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"Javascript"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={redux}
                 black={"white"}
-                white={"black"}
-                skill={"Redux"}
+                white={"white"}
+                skill={"Redux ToolKit"}
               />
               <SkillBox
-                className=""
-                logo={<SiNextdotjs />}
+                logo={tailwind}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"Tailwind CSS"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs/>
-                }
+                logo={html}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"HTML"}
               />
               <SkillBox
-                className=""
-                logo={<GrCode />}
+                logo={bootstrap}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"Bootstrap"}
               />
             </div>
             <div className="last2 flex flex-row gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={typescript}
                 black={"white"}
-                white={"black"}
+                white={"white"}
+                skill={"TypeScript"}
+              />
+              <SkillBox
+                logo={java}
+                black={"white"}
+                white={"white"}
                 skill={"Java"}
               />
               <SkillBox
-                className=""
-                logo={<GrCode />}
+                logo={spring}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"SpringBoot"}
               />
               <SkillBox
                 className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
+                logo={nodejs}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"NodeJS"}
               />
               <SkillBox
                 className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
+                logo={CPlus}
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"C++"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
+                logo={mongodb
                 }
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"MongoDB"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
+                logo={sql
                 }
                 black={"white"}
-                white={"black"}
+                white={"white"}
                 skill={"SQL"}
               />
             </div>
           </div>
         </div>
-
-        {/* icons */}
-        {/* <div
-          data-aos="fade-up"
-          data-aos-duration="1200"
-          className=" container m-auto flex items-center justify-center mt-8 gap-8 md:gap-5"
-        >
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/c-plus-plus-logo.png"
-          />
-
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/python--v1.png"
-          />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios/50/null/react-native--v1.png"
-          />
-
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/sass.png"
-            />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/git.png"
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src="https://img.icons8.com/windows/50/null/sass--v1.png"
-            />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/c-plus-plus-logo.png"
-          />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/python.png"
-          />
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"/>
-        </div> */}
       </div>
     </div>
   );

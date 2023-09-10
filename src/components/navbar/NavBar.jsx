@@ -14,11 +14,11 @@ const navItems = [
   },
   {
     id: 2,
-    name: "projects",
+    name: "works",
   },
   {
     id: 3,
-    name: "works",
+    name: "resume",
   },
   {
     id: 4,
