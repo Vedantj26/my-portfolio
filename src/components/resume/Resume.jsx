@@ -23,7 +23,7 @@ const Resume = () => {
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
-              Experience
+              Internship
             </legend>
             <div className=" relative">
               {/* design */}
@@ -35,7 +35,7 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Developer
+                  Full Stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   Company Name
@@ -50,6 +50,47 @@ const Resume = () => {
                   autem doloribus deserunt qui, laborum incidunt amet, numquam
                   eos cum tempora. Debitis, esse quae corporis deserunt officia
                   quos in a, quaerat vero odio vitae.
+                </p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div className="left flex-1 flex items-center justify-center">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+              Course
+            </legend>
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Full Stack Developer
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Profound Institute
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  6 Months Course
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  I have completed an intensive Full Stack Developer Course,
+                  mastering a comprehensive skill set that spans both front-end
+                  and back-end technologies. Proficient in Java and Spring Boot
+                  for robust server-side development, I also excel in JavaScript
+                  for dynamic web applications and SQL for efficient database
+                  management. My foundational knowledge in C and C++ strengthens
+                  my programming expertise. Additionally, I am well-versed in
+                  React.js and Next.js for creating modern, responsive user
+                  interfaces.
                 </p>
               </div>
             </div>
@@ -73,21 +114,20 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, Computer Science
+                  B.Sc, Computer Science
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  College Name
+                  KK Wagh Institute
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2023 - Year 2027
+                  Year 2019 - Year 2022
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  As an undergraduate Student in B.Sc Computer Science provided
+                  me with a good understanding in development technologies,
+                  including HTML, CSS, PHP, C, C++, Java, and SQL. This diverse
+                  skill set equips me to excel in a wide range of software
+                  development projects and adapt to evolving industry needs.
                 </p>
               </div>
             </div>
