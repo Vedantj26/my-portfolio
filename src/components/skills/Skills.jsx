@@ -28,7 +28,7 @@ const Skills = ({ darkMode }) => {
         </div>
         {/* content*/}
         <div className="mx-auto">
-          <div className="grid grid-cols-7 space-y-5 space-x-5 w-full md:grid-cols-2 sm:gap-8 sm:grid-cols-2 sm:space-y-0 ">
+          <div className="grid grid-cols-7 space-y-5 space-x-5 w-full md:grid-cols-2 sm:gap-8 sm:grid-cols-2 sm:space-y-2 ">
             <SkillBox
               logo={react}
               black={"white"}
