@@ -10,11 +10,11 @@ const Resume = () => {
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-      <div data-aos="fade-up" className="left flex-1 w-full">
+      {/* <div data-aos="fade-up" className="left flex-1 w-full">
         <p className=" text-gray-700 font-medium w-[100%]">
           Here are my experiences and qualifications.
         </p>
-      </div>
+      </div> */}
       {/* card*/}
       <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex-1 flex items-center justify-center">
@@ -35,21 +35,22 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Full Stack Developer
+                  Java Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Company Name
+                  SoftCrowd Technologies
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2023 - Present
+                  March 2023 - September 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  In my current internship at SoftCrowd Technologies, I was
+                  working as a Java Developer focusing on the frontend
+                  development using React JS, where I work on creating
+                  interactive and user-friendly interfaces. Additionally, I am
+                  responsible for building the backend API using Node.js and
+                  MongoDB, enabling data storage and retrieval for the
+                  application.
                 </p>
               </div>
             </div>
@@ -87,10 +88,7 @@ const Resume = () => {
                   and back-end technologies. Proficient in Java and Spring Boot
                   for robust server-side development, I also excel in JavaScript
                   for dynamic web applications and SQL for efficient database
-                  management. My foundational knowledge in C and C++ strengthens
-                  my programming expertise. Additionally, I am well-versed in
-                  React.js and Next.js for creating modern, responsive user
-                  interfaces.
+                  management.
                 </p>
               </div>
             </div>
