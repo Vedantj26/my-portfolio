@@ -6,8 +6,7 @@ import {
 import { FaFacebook, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
-// import resumePDF from "../../assets/Resume.pdf";
-import TechImg from "../../assets/TechImg.png";
+import resumePDF from "../../assets/Vedant_Resume.pdf";
 import { IoLogoWhatsapp } from "react-icons/io";
 
 const Hero = () => {
@@ -54,7 +53,7 @@ const Hero = () => {
               <span> Hire Me</span>
             </a>
             <a
-              // href={resumePDF}
+              href={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
