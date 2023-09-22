@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
@@ -41,8 +38,8 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-1200 sm:text-[.95rem]"
             >
-              I'm an undergraduate student from KK Wagh Institute with a good
-              knowledge of full-stack development.
+              I am a graduate student from KK Wagh Institute with expertise in
+              full-stack development.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
