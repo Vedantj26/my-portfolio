@@ -23,7 +23,7 @@ const Resume = () => {
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
-              Internship
+              Experience
             </legend>
             <div className=" relative">
               {/* design */}
@@ -35,22 +35,22 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Java Developer
+                  Full Stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  SoftCrowd Technologies
+                  Ampcus Tech Pvt. Ltd
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  March 2023 - September 2023
+                  March 2023 - Currently Working
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  In my current internship at SoftCrowd Technologies, I was
-                  working as a Java Developer focusing on the frontend
-                  development using React JS, where I work on creating
-                  interactive and user-friendly interfaces. Additionally, I am
-                  responsible for building the backend API using Node.js and
-                  MongoDB, enabling data storage and retrieval for the
-                  application.
+                  I am currently working as a full-stack developer at Ampcus Tech Pvt.
+                  Ltd., actively contributing to high-scope projects. Completed
+                  the letter links module and efficiently completed tasks
+                  related to the other module. While actively participating in
+                  the different modules of high-scope projects, I learned about
+                  a variety of technologies, including ReactJS, NextJS,
+                  TypeScript, Redux Toolkit, Tailwind CSS, and MongoDB.
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Resume = () => {
                   Year 2019 - Year 2022
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  As an undergraduate Student in B.Sc Computer Science provided
+                  As an graduate Student in B.Sc Computer Science provided
                   me with a good understanding in development technologies,
                   including HTML, CSS, PHP, C, C++, Java, and SQL. This diverse
                   skill set equips me to excel in a wide range of software

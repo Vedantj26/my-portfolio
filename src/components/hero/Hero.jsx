@@ -38,8 +38,9 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-1200 sm:text-[.95rem]"
             >
-              I am a graduate student from KK Wagh Institute with expertise in
-              full-stack development.
+              I focus on developing user-friendly web applications that meet the
+              client's requirements, with attention to detail, scalability, and
+              performance.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
